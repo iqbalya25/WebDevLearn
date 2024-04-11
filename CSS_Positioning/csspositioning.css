@@ -87,15 +87,7 @@
     width: 200px;
     height: 200px;
     background-color: aquamarine;
-    position: absolute;
+    position: fixed;
     top: 50px;
     left: 50px;
-}
-
-.outbox p{
-    margin: 20px;
-}
-
-.outbox h2{
-    margin: 20px;
 }
