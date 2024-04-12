@@ -1,0 +1,118 @@
+@font-face {
+    font-family: 'Bebas Neue';
+    src: local('C:\\Windows\\Fonts\\BebasNeue-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Dancing Script';
+    src: local('C:\\Windows\\Fonts\\DancingScript-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Archivo';
+    src: local('C:\\Windows\\Fonts\\Archivo-Regular.ttf') format('truetype');
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color:#EBF3E8 ;
+}
+.mainheader, .subheader{
+    padding: 20px;
+    margin: 0;
+    border: 0;
+    background-color: #86A789;
+    color: #384739;
+    text-align: center;
+    font-family: 'Dancing Script';
+}
+
+.boxmainmenu{
+    display: block;
+    background-color: #B2C8BA;
+    margin: 0;
+    padding: 0px;
+    /* position: fixed; */
+}
+
+.listmainmenu{
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+}
+
+.listmainmenu li{
+    display: inline-block;
+    padding: 10px 40px 10px 40px;
+    background-color: #B2C8BA;
+    color: #384739;
+}
+
+.listmainmenu .list1{
+    border-bottom: 5px solid #384739;
+}
+
+.boxcontent {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+ 
+.content {
+    padding: 20px;
+    text-align: justify;
+    
+}
+  
+.a1  {
+    background-color: #D2E3C8;
+}
+
+.a2{
+    background-color: #D2E3C8;
+} 
+
+.imgcontent1{ 
+    width: 300px;
+    float: left;
+    padding: 0px 20px 0px 0px;
+}
+  
+.a1 p{
+    margin: 0;
+}
+
+.imgcontent2{
+    width: 300px;
+    float: left;
+    padding: 0px 20px 0px 0px;
+}
+
+.a2 p{
+    margin: 0;
+}
+
+
+
+@media screen and (max-width: 905px) {
+    .boxcontent {
+        display: grid;
+        grid-template-columns: 1fr;
+      }
+
+    .imgcontent1,
+    .imgcontent2 {
+        float: none; /* Remove floating */
+        margin: 0 auto 20px; /* Center the image */
+        display: block;
+    }
+
+    .image-wrapper{
+        text-align: center;
+    }
+
+    .content {
+        padding: 20px;
+        flex-direction: column; /* Change to a vertical layout */
+    }
+}
