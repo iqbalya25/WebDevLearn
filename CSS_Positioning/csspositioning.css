@@ -1,0 +1,93 @@
+#mainheader{
+    background-color: #003C43;
+    color: white;
+    margin: 0;
+    padding: 10px;
+}
+
+
+.modemenu{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.modemenu li{
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 50px 10px 50px;
+    background-color: #135D66;
+    color: white;
+    border-radius: 10px;
+}
+
+.outbox1{
+    margin: 0 auto;
+    text-align: justify;
+    width: 300px;
+    height: 400px;
+    border: 5px solid black;
+    position: relative;
+}
+
+.outbox2{
+    margin: 0 auto;
+    text-align: justify;
+    width: 300px;
+    height: 400px;
+    border: 5px solid black;
+}
+
+.outbox3{
+    margin: 0 auto;
+    text-align: justify;
+    width: 300px;
+    height: 400px;
+    border: 5px solid black;
+    /* position: relative; */
+}
+
+.outbox4{
+    margin: 0 auto;
+    text-align: justify;
+    width: 300px;
+    height: 400px;
+    border: 5px solid black;
+    position: relative;
+}
+
+.boxexm1{
+    margin: 0 auto;
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+    
+}
+
+.boxexm2{
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
+
+.boxexm3{
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+
+.boxexm4{
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+    position: fixed;
+    top: 50px;
+    left: 50px;
+}

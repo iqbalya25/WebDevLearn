@@ -1,0 +1,20 @@
+h2, h1{ /*Group Selector*/
+    color: blueviolet;
+}
+
+.box > .done { /* Child Parents selector*/
+    color: blue;
+}
+
+.box li{ /*Descendant combinator selector  */
+    color: firebrick;
+}
+
+li.done{ /* selector called chaining for super specific element*/
+    color: orange;
+}
+
+ul p.done{ /* combination combiners */
+    color: aquamarine;
+    font-size: 30px;
+}
